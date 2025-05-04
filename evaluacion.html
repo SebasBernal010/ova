@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descubriendo el Pensamiento Computacional</title>
     <style>
+        html,
         body {
-            text-align: center;
-            font-family: Arial, sans-serif;
+            height: 100%;
             margin: 0;
             padding: 0;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
         }
+        
         header {
             background: #0077cc;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
+        
         nav {
             background: #f4f4f4;
             padding: 10px;
             text-align: center;
         }
+        
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #333;
         }
-        section {
-            padding: 20px;
+        
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            text-align: center;
         }
+        
+        .evaluacion {
+            font-family: 'Segoe UI', 'Helvetica Neue', 'Inter', 'system-ui', sans-serif;
+        }
+        
+        .evaluacion h2 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .evaluacion p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
         footer {
             background: #0077cc;
             color: white;
             text-align: center;
             padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
         }
+        
         .btn {
             display: inline-block;
             background: #0077cc;
@@ -48,32 +78,38 @@
             text-decoration: none;
             border-radius: 5px;
         }
+        
         .module {
             margin-bottom: 30px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Descubriendo el Pensamiento Computacional</h1>
         <p>Habilidades para Resolver Problemas</p>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="modulos.html">Módulos</a>
-        <a href="actividades.html">Actividades</a>
-        <a href="evaluacion.html">Evaluación</a>
-        <a href="creditos.html">Créditos</a>
+    <nav style="background: #f4f4f4; padding: 10px; text-align: center;">
+        <a href="index.html" style="margin: 0 15px; text-decoration: none; color: #333;">Inicio</a>
+        <a href="modulos.html" style="margin: 0 15px; text-decoration: none; color: #333;">Módulos</a>
+        <a href="actividades.html" style="margin: 0 15px; text-decoration: none; color: #333;">Actividades</a>
+        <a href="evaluacion.html" style="margin: 0 15px; text-decoration: none; color: white; background: #0077cc; border: 2px solid #0077cc; border-radius: 5px; padding: 5px 10px; font-weight: bold;">Evaluación</a>
+        <a href="creditos.html" style="margin: 0 15px; text-decoration: none; color: #333;">Créditos</a>
     </nav>
 
-    <section id="evaluacion">
-        <h2>Evaluación</h2>
-        <p>Autoevaluación y cuestionario final con retroalimentación inmediata.</p>
-    </section>
+
+    <main>
+        <div class="evaluacion">
+            <h2>Evaluación</h2>
+            <p>Autoevaluación y cuestionario final con retroalimentación inmediata.</p>
+        </div>
+    </main>
 
     <footer>
         <p>&copy; 2025 OVA - Pensamiento Computacional</p>
     </footer>
 </body>
+
 </html>

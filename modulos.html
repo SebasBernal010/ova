@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,27 +13,32 @@
             padding: 0;
             line-height: 1.6;
         }
+        
         header {
             background: #0077cc;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
+        
         nav {
             background: #f4f4f4;
             padding: 10px;
             text-align: center;
         }
+        
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #333;
         }
+        
         section {
             max-width: 800px;
             padding: 20px;
             margin: 40px auto;
         }
+        
         footer {
             background: #0077cc;
             color: white;
@@ -42,6 +48,7 @@
             bottom: 0;
             width: 100%;
         }
+        
         .btn {
             display: inline-block;
             background: #0077cc;
@@ -50,47 +57,131 @@
             text-decoration: none;
             border-radius: 5px;
         }
+        
         .module {
             margin-bottom: 30px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Descubriendo el Pensamiento Computacional</h1>
         <p>Habilidades para Resolver Problemas</p>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="modulos.html">Módulos</a>
-        <a href="actividades.html">Actividades</a>
-        <a href="evaluacion.html">Evaluación</a>
-        <a href="creditos.html">Créditos</a>
+    <nav style="background: #f4f4f4; padding: 10px; text-align: center;">
+        <a href="index.html" style="margin: 0 15px; text-decoration: none; color: #333;">Inicio</a>
+        <a href="modulos.html" style="margin: 0 15px; text-decoration: none; color: white; background: #0077cc; border: 2px solid #0077cc; border-radius: 5px; padding: 5px 10px; font-weight: bold;">Módulos</a>
+        <a href="actividades.html" style="margin: 0 15px; text-decoration: none; color: #333;">Actividades</a>
+        <a href="evaluacion.html" style="margin: 0 15px; text-decoration: none; color: #333;">Evaluación</a>
+        <a href="creditos.html" style="margin: 0 15px; text-decoration: none; color: #333;">Créditos</a>
     </nav>
 
+
+
+
     <section id="modulos">
-        <h2>Módulos</h2>
-        <div class="module" id="modulo1">
-            <h3>Módulo 1: Descomposición</h3>
-            <p>Descripción</p>
+
+    </section>
+    <section style="text-align: center; font-family: Arial, sans-serif; padding: 0.0000001%; line-height: 1.6;">
+
+        <!-- Módulo 1 -->
+        <h2 style="font-size: 2em; margin-top: 40px;">Módulo 1: Descomposición</h2>
+
+        <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; margin: 15px auto; max-width: 700px;">
+            <h3 style="margin-top: 0;">¿Qué es?</h3>
+            <p>La descomposición es la habilidad de dividir un problema complejo en partes más pequeñas y manejables. Esta técnica permite entender mejor el problema y resolver cada parte de manera ordenada.</p>
         </div>
-        <div class="module" id="modulo2">
-            <h3>Módulo 2: Abstracción</h3>
-            <p>Descripción</p>
+
+        <div style="margin: 20px auto; max-width: 600px; height: 200px; background: #eee; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img src="/ova/recursos/descomposicion.jpg" alt="Descomposición" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; cursor: pointer;" onclick="this.style.transform = this.style.transform === 'scale(1.1)' ? 'scale(1)' : 'scale(1.1)'">
         </div>
-        <div class="module" id="modulo3">
-            <h3>Módulo 3: Patrones</h3>
-            <p>Descripción</p>
+
+
+
+        <div style="background: #e0f3ff; border-left: 6px solid #0077cc; padding: 15px; margin: 15px auto; max-width: 700px; text-align: left;">
+            <strong>Actividad sugerida:</strong>
+            <p>Piensa en la tarea de organizar una fiesta. Haz una lista detallada con todos los pasos y subtareas que implica (invitaciones, comida, música, decoración, etc.). Reflexiona sobre cómo al dividir tareas es más fácil resolverlas.</p>
         </div>
-        <div class="module" id="modulo4">
-            <h3>Módulo 4: Algoritmos</h3>
-            <p>Descripción</p>
+
+        <hr style="border: none; border-top: 2px solid #0077cc; margin: 50px auto; width: 100%;">
+
+
+        <!-- Módulo 2 -->
+        <h2 style="font-size: 2em; margin-top: 10%;">Módulo 2: Abstracción</h2>
+
+        <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; margin: 15px auto; max-width: 700px;">
+            <h3 style="margin-top: 0;">¿Qué es?</h3>
+            <p>La abstracción consiste en ignorar los detalles innecesarios para centrarse en lo fundamental del problema. Ayuda a construir soluciones más generales que puedan aplicarse a otros contextos similares.</p>
         </div>
+
+        <div style="margin: 20px auto; max-width: 600px; height: 200px; background: #eee; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img src="/ova/recursos/abstraccion.png" alt="Descomposición" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; cursor: pointer;" onclick="this.style.transform = this.style.transform === 'scale(1.1)' ? 'scale(1)' : 'scale(1.1)'">
+        </div>
+
+        <div style="background: #e0f3ff; border-left: 6px solid #0077cc; padding: 15px; margin: 15px auto; max-width: 700px; text-align: left;">
+            <strong>Actividad sugerida:</strong>
+            <p>Observa diferentes tipos de sillas (oficina, comedor, playa) y haz una lista de las características comunes. Luego, crea una definición general de "silla" que funcione para todas, ignorando los detalles específicos.</p>
+        </div>
+
+        <hr style="border: none; border-top: 2px solid #28ac49; margin: 50px auto; width: 100%;">
+
+
+        <!-- Módulo 3 -->
+        <h2 style="font-size: 2em; margin-top: 10%;">Módulo 3: Patrones</h2>
+
+        <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; margin: 15px auto; max-width: 700px;">
+            <h3 style="margin-top: 0;">¿Qué es?</h3>
+            <p>Reconocer patrones significa identificar similitudes o regularidades en los problemas o datos. Esto permite usar soluciones previas en situaciones nuevas, ahorrando tiempo y esfuerzo.</p>
+        </div>
+
+        <div style="margin: 20px auto; max-width: 600px; height: 200px; background: #eee; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img src="/ova/recursos/patrones.jpg" alt="Descomposición" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; cursor: pointer;" onclick="this.style.transform = this.style.transform === 'scale(1.1)' ? 'scale(1)' : 'scale(1.1)'">
+        </div>
+
+        <div style="background: #e0f3ff; border-left: 6px solid #0077cc; padding: 15px; margin: 15px auto; max-width: 700px; text-align: left;">
+            <strong>Actividad sugerida:</strong>
+            <p>Analiza tu rutina diaria. ¿Qué acciones repites todos los días al despertar o al prepararte para salir? Identifica estos patrones y piensa cómo podrías automatizarlos o mejorarlos.</p>
+        </div>
+
+        <hr style="border: none; border-top: 2px solid #c2305c; margin: 50px auto; width: 100%;">
+
+
+        <!-- Módulo 4 -->
+        <h2 style="font-size: 2em; margin-top: 10%;">Módulo 4: Algoritmos</h2>
+
+        <div style="border: 1px solid #ccc; padding: 15px; border-radius: 8px; margin: 15px auto; max-width: 700px;">
+            <h3 style="margin-top: 0;">¿Qué es?</h3>
+            <p>Un algoritmo es una serie de pasos ordenados y claros que permiten resolver un problema o realizar una tarea. Son la base de los programas informáticos y de muchas soluciones en la vida diaria.</p>
+        </div>
+
+        <div style="margin: 20px auto; max-width: 600px; height: 300px; background: #eee; display: flex; justify-content: center; align-items: center; overflow: hidden;">
+            <img src="/ova/recursos/algortimos.png" alt="Descomposición" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; cursor: pointer;" onclick="this.style.transform = this.style.transform === 'scale(1.1)' ? 'scale(1)' : 'scale(1.1)'">
+        </div>
+
+        <div style="background: #e0f3ff; border-left: 6px solid #0077cc; padding: 15px; margin: 15px auto; max-width: 700px; text-align: left;">
+            <strong>Actividad sugerida:</strong>
+            <p>Escribe paso a paso cómo hacer un sándwich de jamón y queso, como si se lo explicaras a una persona que nunca lo ha hecho. Asegúrate de que cada instrucción sea clara y en orden.</p>
+        </div>
+
+        <hr style="border: none; border-top: 2px solid #c2305c; margin: 50px auto; width: 100%;">
+
+        <div style="background: #f4f4f4; border-radius: 10px; padding: 20px; margin: 20px auto; width: 100%; max-width: 800px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <div style="text-align: center; margin-bottom: 10px; font-size: 1.5em; font-weight: bold; color: #0077cc;">
+                Video Ilustrativo
+            </div>
+            <div style="overflow: hidden; border-radius: 10px; background: #000;">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ti315UlVtS4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+
     </section>
 
     <footer>
         <p>&copy; 2025 OVA - Pensamiento Computacional</p>
     </footer>
 </body>
+
 </html>

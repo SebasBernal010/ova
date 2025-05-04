@@ -1,81 +1,121 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descubriendo el Pensamiento Computacional</title>
     <style>
+        html,
         body {
-            text-align: center;
-            font-family: Arial, sans-serif;
+            height: 100%;
             margin: 0;
             padding: 0;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
         }
+        
         header {
             background: #0077cc;
             color: white;
             padding: 20px 0;
             text-align: center;
         }
+        
         nav {
             background: #f4f4f4;
             padding: 10px;
             text-align: center;
         }
+        
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #333;
         }
-        section {
-            padding: 20px;
+        
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            text-align: center;
         }
+        
+        .creditos {
+            font-family: 'Segoe UI', 'Helvetica Neue', 'Inter', 'system-ui', sans-serif;
+        }
+        
+        .creditos h2 {
+            font-size: 2.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .creditos .autores,
+        .creditos .institucion,
+        .creditos .contacto {
+            font-size: 1.1rem;
+            color: #333;
+            margin: 10px 0;
+        }
+        
+        .creditos .autores span {
+            display: block;
+            font-weight: 500;
+            margin: 4px 0;
+        }
+        
         footer {
             background: #0077cc;
             color: white;
             text-align: center;
             padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .btn {
-            display: inline-block;
-            background: #0077cc;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .module {
-            margin-bottom: 30px;
         }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Descubriendo el Pensamiento Computacional</h1>
         <p>Habilidades para Resolver Problemas</p>
     </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="modulos.html">Módulos</a>
-        <a href="actividades.html">Actividades</a>
-        <a href="evaluacion.html">Evaluación</a>
-        <a href="creditos.html">Créditos</a>
+    <nav style="background: #f4f4f4; padding: 10px; text-align: center;">
+        <a href="index.html" style="margin: 0 15px; text-decoration: none; color: #333;">Inicio</a>
+        <a href="modulos.html" style="margin: 0 15px; text-decoration: none; color: #333;">Módulos</a>
+        <a href="actividades.html" style="margin: 0 15px; text-decoration: none; color: #333;">Actividades</a>
+        <a href="evaluacion.html" style="margin: 0 15px; text-decoration: none; color: #333;">Evaluación</a>
+        <a href="creditos.html" style="margin: 0 15px; text-decoration: none; color: white; background: #0077cc; border: 2px solid #0077cc; border-radius: 5px; padding: 5px 10px; font-weight: bold;">Créditos</a>
     </nav>
 
-    <section id="creditos">
-        <h2>Créditos</h2>
-        <p>Autor: Nombre del docente</p>
-        <p>Institución educativa</p>
-        <p>Contacto: correo@example.com</p>
-    </section>
+
+    <main>
+        <div class="creditos">
+            <h2>Créditos</h2>
+            <div class="autores">
+                <strong>Autores:</strong>
+                <span>Sebastian Bernal</span>
+                <span>Jhoan Velasquez</span>
+                <span>Nicolas Bernal</span>
+            </div>
+            <div class="institucion">
+                <strong>Institución:</strong> Universidad de Nariño, Pasto
+            </div>
+            <div class="contacto">
+                <strong>Contacto:</strong> correo@example.com
+            </div>
+        </div>
+
+
+    </main>
 
     <footer>
         <p>&copy; 2025 OVA - Pensamiento Computacional</p>
     </footer>
 </body>
+
 </html>
